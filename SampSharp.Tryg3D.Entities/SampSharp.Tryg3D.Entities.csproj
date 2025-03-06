@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>$(AssemblyName)</Title>
+    <Description>A rewrite of the SA-MP 3DTryg include for SampSharp ECS. </Description>
+    <PackageIcon>sampsharp.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>SampSharp</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\sampsharp.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SampSharp.Core" Version="0.11.1" />
+    <PackageReference Include="SampSharp.Entities" Version="0.11.1" />
+  </ItemGroup>
+
+</Project>
