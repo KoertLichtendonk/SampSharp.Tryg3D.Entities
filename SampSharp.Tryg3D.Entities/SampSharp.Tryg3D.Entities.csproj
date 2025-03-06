@@ -9,6 +9,9 @@
     <PackageIcon>sampsharp.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>SampSharp</PackageTags>
+    <RepositoryUrl>https://github.com/KoertLichtendonk/SampSharp.Tryg3D.Entities</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/KoertLichtendonk/SampSharp.Tryg3D.Entities</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
